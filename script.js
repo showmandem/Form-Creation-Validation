@@ -1,7 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
   // All my JavaScript code goes inside this function
-  console.log("The HTML document has been fully loaded!");
+    const form = document.getElementById("registration-form")
+    const feedbackDiv = document.getElementById("form-feedback")
 
 
-  
+
 });
