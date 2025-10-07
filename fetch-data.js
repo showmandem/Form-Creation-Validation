@@ -4,7 +4,7 @@ async function fetchUserData() {
 }
 try{
     const response = await fetch(apiUrl);
-    const users = await response.json
+    const users = await response.json()
 }
 catch(error){
     // console.error("Error with data :" error);
