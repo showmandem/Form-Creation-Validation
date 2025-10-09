@@ -31,3 +31,4 @@ users.forEach(user => {
 dataContainer.appendChild(userList);
 
 }
+document.addEventListener("DOMContentLoaded", fetchUserData);
